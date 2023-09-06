@@ -1,0 +1,42 @@
+/* Understanding Flexbox */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#box{
+    display: flex;
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 3, 241);
+}
+#box2{
+    width: 140px;
+    height: 110px;
+    background-color: rgb(241, 3, 23);
+}
+#box3{
+    width: 100px;
+    height: 110px;
+    background-color: rgb(3, 243, 23);
+}
